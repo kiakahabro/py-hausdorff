@@ -1,7 +1,7 @@
 prepare-dev:
 	pip install --upgrade pip && \
 	pip install -U -r requirements.txt && \
-	pip setup.py develop
+	python setup.py develop
 
 test:
 	pytest -v tests/*_test.py
