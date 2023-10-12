@@ -2,6 +2,9 @@ build/
 dist/
 hausdorff.egg-inf/
 
+# Ignore all compiled Python files:
+*.pyc
+
 
 # Ignore virtual environment:
 .venv
